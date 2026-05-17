@@ -1,0 +1,30 @@
+Installed and configured Git, Python, VS Code, and dbt-bigquery to create a local analytics engineering development environment.
+Created a Google BigQuery project and dataset to serve as the cloud data warehouse for analytics transformations, cloud-based querying, and SQL modelling workflows.
+Initialized and configured a dbt project connected to BigQuery using OAuth authentication, including warehouse project configuration, dataset setup, multi-threaded execution settings, and environment profile management.
+Generated a professional dbt project structure containing models, tests, macros, seeds, snapshots, and documentation components used in modern analytics engineering pipelines.
+Configured local-to-cloud analytics infrastructure enabling dbt to orchestrate SQL transformations and build scalable analytics models directly inside BigQuery.
+
+
+
+Installed and configured Git, Python, VS Code, and dbt-bigquery to create a local analytics engineering development environment.
+Created a Google BigQuery project and dataset to serve as the cloud data warehouse for analytics transformations, cloud-based querying, and SQL modelling workflows.
+Initialized a dbt analytics engineering project using dbt init analytics_engineering, automatically generating professional project folders including models/, seeds/, tests/, macros/, snapshots/, and analyses/.
+Configured a dbt profile using OAuth authentication to connect local transformation workflows to the BigQuery cloud warehouse environment.
+Loaded raw ecommerce datasets into BigQuery warehouse tables using the dbt seed command, creating scalable source-layer tables directly from CSV files.
+Built SQL-based staging transformation models using dbt SELECT statements and ref() dependency references to standardize and prepare raw warehouse data for analytics consumption.
+Executed transformation pipelines inside BigQuery using commands such as dbt run --select stg_customers, dbt run --select stg_orders, and dbt run --select stg_payments.
+Developed analytics-ready staging views including stg_customers, stg_orders, stg_payments, stg_order_items, and stg_products to support downstream dimensional modelling and KPI reporting.
+Applied SQL transformations including lower() and upper() standardization logic to clean and normalize warehouse data during staging-layer processing.
+
+
+
+Implemented dbt ref() dependency management within SQL transformation models to create dynamic warehouse object references, automate model lineage, and support scalable environment-independent analytics engineering workflows.
+
+
+
+Implemented dbt YAML (schema.yml) configuration files to define automated warehouse data quality validation frameworks, enabling metadata-driven testing of analytics models using dbt test orchestration and not_null validation rules.
+Executed end-to-end analytics engineering workflows using dbt build and dbt test to orchestrate warehouse-wide pipeline execution across raw seed ingestion layers, staging transformations, fact tables, KPI marts, and automated BigQuery data quality checks.
+Generated interactive analytics engineering documentation and warehouse lineage metadata using dbt docs generate and dbt docs serve, producing model dependency graphs, transformation lineage visualization, warehouse catalog metadata, and end-to-end pipeline documentation assets.
+
+
+
